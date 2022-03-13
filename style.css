@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;,900&display=swap');
+<script src="https://kit.fontawesome.com/184cba31bc.js" crossorigin="anonymous"></script>
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+
+h1
+{
+	color: #283747;
+}
+
+h2
+{
+	color:#283747;
+}
+
+div
+{
+	background-color: #f5efe6;
+	margin : auto;
+	padding: 8px;
+	border-radius: 6px;
+}
+
+#avatar
+{
+	width: 302px;
+	height: 629px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.list-inline
+{
+	padding: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.list-inline li
+{
+	margin: 0 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.fa-brands
+{
+	font-size: 32px;
+	color: rgba(0,0,0,0.4);
+}
+
+.fa-brands:hover
+{
+	color: #BDA18A;
+}
+
+.containerultime
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	width: fit-content;
+}
+
+.containera
+{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+}
+
+.containerb
+{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0fr 0fr;
+	align-content: space-evenly;
+	justify-items: center;
+	margin: 2px;
+}
+
+.titre
+{
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.imagechat
+{
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	height: fit-content;
+}
+
+.prez
+{
+	width: 80%;
+	height: 255px;
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	text-align : center;
+}
+
+.plats
+{
+	width: 80%;
+	height: 255px;
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.jaimelio
+{
+	width: 80%;
+	height: 255px;
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.contacts
+{
+	width: 80%;
+	height: 255px;
+	background-color: #E8D5CC;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.bg
+{
+	border-radius: 50%;
+}
+
+.btnpink
+{
+	color: #283747;
+	background-color: #bda18a;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.btnpink:hover
+{
+	background-color: pink;
+	color: white;
+	transition: 1s;
+}
